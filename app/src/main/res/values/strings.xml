@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PetVax</string>
+    <string name="slogan_login">Saúde do seu pet em um só lugar</string>
+    <string name="slogan_register">Crie sua conta para continuar</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_title">Bem-vindo!</string>
+    <string name="welcome_subtitle">Entre na sua conta para continuar</string>
+    <string name="forgot_password">Esqueci minha senha</string>
+    <string name="login_button">Entrar na conta</string>
+    <string name="create_account_button">Criar nova conta</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Criar conta</string>
+    <string name="register_subtitle">Preencha os dados abaixo para começar</string>
+    <string name="register_button">Criar conta</string>
+    <string name="already_have_account">Já tenho uma conta</string>
+    <string name="name_hint">Nome completo</string>
+
+    <!-- Common -->
+    <string name="email_hint">seu@email.com</string>
+    <string name="password_hint">Senha</string>
+    <string name="welcome_main">Bem-vindo ao PetVax!</string>
+    <string name="logout_button">Sair da conta</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012885095657",
+    "project_id": "caogenda",
+    "storage_bucket": "caogenda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012885095657:android:445b6faed58ee16fcbdc78",
+        "android_client_info": {
+          "package_name": "com.caogenda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHN20t_K_ZjdRfJoE5u9j0HJ1pb2ESKbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
