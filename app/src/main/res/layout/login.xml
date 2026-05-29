@@ -149,14 +149,16 @@
                 app:boxStrokeWidth="2dp"
                 app:boxStrokeWidthFocused="3dp"
                 android:textColor="@color/dark_blue"
-                android:textColorHint="@color/gray_text"
-                app:layout_constraintTop_toBottomOf="@id/tilEmail">
+                android:textColorHint="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/tilEmail"
+                app:endIconTint="@color/gray_text">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/dark_blue"
                     android:textColorHint="@color/gray_text"
+                    app:endIconTint="@color/black"
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
