@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvYear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp"
+    android:paddingHorizontal="24dp"
+    android:textColor="@color/dark_blue"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:text="2024" />

@@ -3,16 +3,25 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- PetVax Colors -->
-    <!--  <color name="primary_teal">#38B2AC</color>
-    <color name="primary_teal_dark">#319795</color>
-    <color name="gray_light">#E2E8F0</color>
-    <color name="gray_text">#718096</color>
-    <color name="dark_blue">#2D3748</color>  -->
+    <!-- PetHealth Palette -->
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="primary_purple_dark">#6D28D9</color>
+    <color name="primary_purple_light">#EDE9FE</color>
+    <color name="primary_purple_surface">#F5F3FF</color>
 
-    <color name="primary_teal">#0F766E</color>
-    <color name="primary_teal_dark">#115E59</color>
     <color name="dark_blue">#1E293B</color>
     <color name="gray_text">#475569</color>
     <color name="gray_light">#CBD5E1</color>
+    <color name="gray_surface">#F8FAFC</color>
+
+    <!-- Semantic Colors -->
+    <color name="success_green">#22C55E</color>
+    <color name="success_green_light">#F0FDF4</color>
+    <color name="alert_orange">#F59E0B</color>
+    <color name="alert_orange_light">#FFF7ED</color>
+    <color name="error_red">#EF4444</color>
+    <color name="error_red_light">#FEF2F2</color>
+
+    <!-- Legacy / Compatibility -->
+    <color name="primary_teal">#8B5CF6</color> <!-- Replaced by Purple -->
 </resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/primary_purple_light"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPetIcon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="@color/gray_surface"
+            app:strokeColor="@color/primary_purple_light"
+            app:strokeWidth="1dp"
+            >
+
+            <ImageView
+                android:id="@+id/ivPet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_pets"
+                 />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tvVacinaNome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/tvDiasRestantes"
+            app:layout_constraintStart_toEndOf="@id/cardPetIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Múltipla V10" />
+
+        <TextView
+            android:id="@+id/tvPetEData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@id/tvDiasRestantes"
+            app:layout_constraintStart_toStartOf="@id/tvVacinaNome"
+            app:layout_constraintTop_toBottomOf="@id/tvVacinaNome"
+            tools:text="Thor • 15 Jan 2025" />
+
+        <TextView
+            android:id="@+id/tvDiasRestantes"
+            android:layout_width="63dp"
+            android:layout_height="24dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:textColor="#D97706"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/bg_tg_warning"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ivArrow"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="52d" />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_home"
+            android:rotation="90"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

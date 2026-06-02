@@ -27,6 +27,12 @@
         </activity>
 
         <activity android:name=".NovaContaActivity" />
+        <activity android:name=".AddPetActivity" />
+        <activity android:name=".PetDetailsActivity" />
+        <activity android:name=".AddVacinaActivity" />
+        <activity android:name=".EditPetActivity" />
+        <activity android:name=".VacinaDetailsActivity" />
+        <activity android:name=".HistoricoActivity" />
     </application>
 
 </manifest>

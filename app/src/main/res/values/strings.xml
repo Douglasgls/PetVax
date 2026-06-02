@@ -1,25 +1,96 @@
 <resources>
-    <string name="app_name">PetVax</string>
-    <string name="slogan_login">Saúde do seu pet em um só lugar</string>
-    <string name="slogan_register">Crie sua conta para continuar</string>
+    <string name="app_name">PetHealth</string>
+    <string name="slogan_login">A saúde do seu melhor amigo em boas mãos</string>
+    <string name="slogan_register">Crie sua conta para começar a cuidar do seu pet</string>
 
     <!-- Login Screen -->
-    <string name="welcome_title">Bem-vindo!</string>
-    <string name="welcome_subtitle">Entre na sua conta para continuar</string>
+    <string name="welcome_title">Bem-vindo ao PetHealth</string>
+    <string name="welcome_subtitle">Acesse sua conta para gerenciar a saúde do seu pet</string>
     <string name="forgot_password">Esqueci minha senha</string>
-    <string name="login_button">Entrar na conta</string>
+    <string name="login_button">Entrar</string>
     <string name="create_account_button">Criar nova conta</string>
 
     <!-- Register Screen -->
     <string name="register_title">Criar conta</string>
     <string name="register_subtitle">Preencha os dados abaixo para começar</string>
-    <string name="register_button">Criar conta</string>
+    <string name="register_button">Cadastrar</string>
     <string name="already_have_account">Já tenho uma conta</string>
     <string name="name_hint">Nome completo</string>
 
     <!-- Common -->
     <string name="email_hint">seu@email.com</string>
     <string name="password_hint">Senha</string>
-    <string name="welcome_main">Bem-vindo ao PetVax!</string>
+    <string name="welcome_main">Bem-vindo ao PetHealth!</string>
     <string name="logout_button">Sair da conta</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Olá, Bem-vindo 👋</string>
+    <string name="home_panel_title">Painel de Saúde</string>
+    <string name="summary_pets">Pets</string>
+    <string name="summary_vaccines_ok">Vacinas OK</string>
+    <string name="summary_pending">Pendentes</string>
+    <string name="action_add_pet">Add Pet</string>
+    <string name="action_vaccine">Vacina</string>
+    <string name="action_history">Histórico</string>
+    <string name="action_edit">Editar</string>
+    <string name="section_next_vaccines">Próximas Vacinas</string>
+    <string name="section_my_pets">Meus Pets</string>
+    <string name="pets_count">%1$d animais cadastrados</string>
+    <string name="btn_new_pet">Novo Pet</string>
+    <string name="empty_pets_msg">Você ainda não possui pets cadastrados.</string>
+
+    <!-- Add Pet Screen -->
+    <string name="add_pet_title">Cadastrar Pet</string>
+    <string name="edit_pet_title">Editar Pet</string>
+    <string name="hint_pet_name">Nome do Pet</string>
+    <string name="hint_pet_breed">Raça</string>
+    <string name="hint_pet_birthdate">Data de nascimento</string>
+    <string name="hint_pet_weight">Peso (kg)</string>
+    <string name="btn_save">Salvar Pet</string>
+    <string name="btn_save_changes">Salvar Alterações</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete_pet">Excluir Pet</string>
+    <string name="delete_pet_confirm_title">Excluir Pet</string>
+    <string name="delete_pet_confirm_msg">Tem certeza que deseja excluir este pet? Esta ação não poderá ser desfeita.</string>
+    <string name="btn_delete">Excluir</string>
+    <string name="error_required">Campo obrigatório</string>
+    <string name="label_especie">Espécie</string>
+    <string name="especie_dog">Cachorro</string>
+    <string name="especie_cat">Gato</string>
+    <string name="especie_other">Outro</string>
+    <string name="pet_age_years">%1$d anos</string>
+    <string name="pet_age_months">%1$d meses</string>
+    <string name="pet_weight_format">%1$.1f kg</string>
+    <string name="empty_vaccines">Você ainda não possui vacinas cadastradas.</string>
+    <string name="empty_pets">Você ainda não cadastrou nenhum pet.</string>
+    <string name="health_tip_title">Dica de saúde</string>
+    <string name="health_tip_content">Mantenha as vacinas em dia. Pets vacinados vivem mais e com mais qualidade de vida.</string>
+    <string name="empty_pending_vaccines">Você não possui vacinas pendentes.</string>
+    <string name="view_all">Ver todas</string>
+    <string name="feature_in_development">Funcionalidade em desenvolvimento</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_pets">Meus Pets</string>
+    <string name="nav_agenda">Agenda</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="agenda_placeholder">Funcionalidade em desenvolvimento</string>
+    <string name="logout_confirm">Deseja realmente sair?</string>
+    <string name="add_pet_button_text">+ Adicionar Pet</string>
+    <string name="email_placeholder">email@exemplo.com</string>
+    <string name="profile_image_desc">Foto de perfil</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Histórico de Vacinação</string>
+    <string name="history_subtitle">Consulte o histórico completo dos seus pets</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_applied">Aplicadas</string>
+    <string name="filter_pending">Pendentes</string>
+    <string name="summary_applied">Aplicadas: %1$d</string>
+    <string name="summary_pending_count">Pendentes: %1$d</string>
+    <string name="summary_next_vaccine">Próxima vacina: %1$s</string>
+    <string name="empty_history_msg">Este pet ainda não possui vacinas cadastradas.</string>
+    <string name="btn_add_vaccine">Adicionar Vacina</string>
+    <string name="applied_at">Aplicada em: %1$s</string>
+    <string name="next_dose_at">Próxima dose: %1$s</string>
 </resources>
