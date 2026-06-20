@@ -46,6 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nome da Vacina *"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
@@ -62,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="Data de Aplicação *"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal"
                 app:startIconDrawable="@drawable/ic_agenda">
@@ -80,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="Veterinário Responsável"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
@@ -96,6 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="Observações"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
@@ -126,6 +130,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Próxima dose (opcional)"
+                        android:textColorHint="#555555"
                         android:textColor="#EA580C"
                         android:textStyle="bold" />
 
@@ -135,6 +140,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:hint="DD/MM/AAAA"
+                        android:textColorHint="#555555"
                         app:boxStrokeColor="#FDBA74"
                         app:hintTextColor="#EA580C">
 

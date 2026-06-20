@@ -17,6 +17,7 @@
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:title="@string/add_pet_title"
+            android:textColorHint="#555555"
             app:titleTextColor="@color/dark_blue" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -72,6 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_pet_name"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
@@ -101,21 +103,27 @@
                     android:id="@+id/rbDog"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/especie_dog" />
+                    android:text="@string/especie_dog"
+                    android:textColor="#555555"
+                    android:buttonTint="#555555"/>
 
                 <RadioButton
                     android:id="@+id/rbCat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="@string/especie_cat" />
+                    android:text="@string/especie_cat"
+                    android:textColor="#555555"
+                    android:buttonTint="#555555"/>
 
                 <RadioButton
                     android:id="@+id/rbOther"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="@string/especie_other" />
+                    android:text="@string/especie_other"
+                    android:textColor="#555555"
+                    android:buttonTint="#555555"/>
             </RadioGroup>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -125,6 +133,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_pet_breed"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
@@ -142,6 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_pet_birthdate"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal"
                 app:startIconDrawable="@drawable/ic_agenda">
@@ -161,6 +171,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_pet_weight"
+                android:textColorHint="#555555"
                 app:boxStrokeColor="@color/primary_teal"
                 app:hintTextColor="@color/primary_teal">
 
